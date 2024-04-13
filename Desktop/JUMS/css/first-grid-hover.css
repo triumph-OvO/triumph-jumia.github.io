@@ -1,0 +1,133 @@
+.hover-container {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    position: absolute;
+    left: 160px;
+    right: -731px;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 300;
+    gap: 5px;
+    display: flex;
+    overflow: auto;
+    display: none;
+}
+.first-row {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.second-row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    row-gap: 20px;
+}
+.third-row {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    row-gap: 20px;
+}
+
+.hover1 {
+    top: -10px;
+    bottom: -347px;
+}
+.hover2 {
+    top: -41px;
+    bottom: -316px;
+}
+.hover3 {
+    top: -72px;
+    bottom: -285px;
+}
+.hover4 {
+    top: -103px;
+    bottom: -254px;
+}
+.hover5 {
+    top: -134px;
+    bottom: -223px;
+}
+.hover6 {
+    top: -165px;
+    bottom: -192px;
+}
+.hover7 {
+    top: -196px;
+    bottom: -161px;
+}
+.hover8 {
+    top: -227px;
+    bottom: -130px;
+}
+.hover9 {
+    top: -258px;
+    bottom: -99px;
+}
+.hover10 {
+    top: -289px;
+    bottom: -68px;
+}
+.hover11 {
+    top: -320px;
+    bottom: -37px;
+}
+.hover12 {
+    top: -351px;
+    bottom: -6px;
+}
+
+
+.side {
+    transition: color 0.1s;
+}
+.side:hover {
+    color: rgb(246, 139, 30);
+}
+.normal:hover {
+    color: black;
+}
+.heading:hover {
+    color: rgb(246, 139, 30);
+}
+
+
+
+
+
+
+
+
+
+.hrt {
+    border: 0.3px solid rgb(193, 193, 193);
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.hrl {
+    border: 0.3px solid rgb(193, 193, 193);
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.heading {
+    font-weight: 400;
+    color: black;
+}
+.normal {
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(132, 132, 132);
+    margin-bottom: 4px;
+}
+.side:hover .hover-container {
+    display: flex;
+    animation: fadeI 0.1s;
+}
+@keyframes fadeI {
+    from { opacity: 0.8;}
+    to {opacity: 1;}
+}

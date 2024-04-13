@@ -1,0 +1,152 @@
+.second-section {
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px 8px 10px 8px;
+    padding: inset;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.second-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+}
+.inner2 {
+    background-color: white;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.inner2:hover {
+    transform: scale(1.03);
+    box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+.inner2 img {
+    width: 185px;
+    height: auto;
+    border-radius: 3px;
+}
+.inner2 div {
+    font-weight: 300;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+
+
+
+
+.third-section {
+    margin-top: 15px;
+}
+.red {
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #e61601;
+    padding: 10px 20px;
+    border-radius: 3px 3px 0px 0px;
+}
+.red, .red1, .red2, .red3 {
+    display: flex;
+    align-items: center;
+}
+.red1 img {
+    width: 30px;
+    margin-right: 10px;
+}
+.red1 div,
+.red2 {
+    font-size: 20px;
+}
+.red2 Span {
+    font-weight: 600;
+}
+.red3 {
+    font-size: 14px;
+}
+.red3 img {
+    width: 20px;
+    transform: rotate(270deg);
+}
+
+
+
+
+
+
+.white {
+    padding: 8px;
+    padding-bottom: 11px;
+    border-radius: 0px 0px 3px 3px;
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(6, 1fr);
+    overflow-x: auto;
+    gap: 8px;
+    scroll-snap-type: inline mandatory ;
+}
+.one-white {
+    scroll-snap-align: start;
+    width: 188px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8px;
+    border-radius: 3px;
+}
+.one-white:hover {
+    box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    transform: scale(1.03);
+}
+.smaller-info {
+    padding: 0px 6px 0px 6px;
+}
+.img-div {
+    position: relative;
+}
+.img-div img {
+    width: 183px;
+    height: auto;
+}
+.img-div div {
+    font-size: 13px;
+    font-weight: 300;
+    padding: 3px 3px;
+    border-radius: 3px;
+    color: #f68b1e;
+    background-color: #fef3e9;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+.title {
+    font-size: 14px;
+}
+.price {
+    font-size: 15px;
+    margin: 3px 0px;
+}
+.canceled-price {
+    font-size: 11px;
+    color: rgb(108, 108, 108);
+    text-decoration: line-through;
+}
+.items-left {
+    font-size: 13px;
+    margin: 5px 0px 3px 0px;
+}
+.naira {
+    text-decoration: line-through;
+    text-decoration-style: double;
+}
+.meter_s {
+    border-radius: 10px;
+    background-color: #c7c7cd ;
+    height: 8px;
+    width: auto;
+    background:linear-gradient( to right,#f68b1e 63%,#c7c7cd 10%);
+}

@@ -1,0 +1,96 @@
+* {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    letter-spacing: 0.3px;
+}
+.body {
+    width: 100%;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1184px;
+    gap: 10px;
+}
+body {
+    background-color: rgb(241, 241, 242);
+    margin-top: 85px;
+    background-color: #78c4d4;
+}
+
+.left-section img,
+.search-btn,
+.one,
+.side-icon,
+.side-main-text,
+.heading,
+.normal,
+.big-img,
+.right-1,
+.right-container2,
+.one-white,
+.inner2,
+.orange,
+.email-button,
+.outer,
+.links2,
+.normal-11,
+.ic0ns {
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .body {
+        max-width: 950px;
+    }
+    .right-container1,
+    .right-container2,
+    .right-1 {
+        display: none;
+        visibility: hidden;
+    }
+    .search {
+        max-width: 200px;
+    }
+    .middle-section {
+        margin-left: -60px;
+    }
+    .inner2 img {
+        max-width: 145px;
+        position: mw;
+    }
+    .first-grid {
+        width: 950px;
+    }
+    .second-section,
+    .third-section {
+        min-width: 950px;
+    }
+    .test {
+        min-width: 950px;
+    }
+    .img-div img {
+        min-width: 223px;
+    }
+    .one-white {
+        min-width: 231px;
+    }
+    .first-footer {
+        width: 950px;
+    }
+    .email {
+        max-width: 150px;
+    }
+    .sec3 {
+        width: 230px;
+    }.orange-div {
+        width: 360px;
+    }
+    .second-footer {
+        width: 950px;
+    }
+}
+.header1 {
+    z-index: 1000;
+}

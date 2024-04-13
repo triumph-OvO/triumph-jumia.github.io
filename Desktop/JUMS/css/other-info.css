@@ -1,0 +1,26 @@
+.other-info {
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.big-head {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.writing {
+    font-size: 12px;
+}
+.links2 {
+    font-weight: 600;
+    text-decoration: underline;
+}
+.small-head {
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}

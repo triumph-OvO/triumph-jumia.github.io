@@ -1,0 +1,148 @@
+.overall {
+    position: relative;
+}
+.top-stri {
+    background-color: rgb(120, 196, 212);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+}
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first {
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+}
+.first img {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+.first div {
+    font-size: 12px;
+    white-space: nowrap;
+    color: rgb(246, 139, 30);
+    margin-left: 7px;
+}
+.second {
+    display: flex;
+    margin-left: -200px;
+}
+.second img {
+    height: 33px;
+}
+.shield-div {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.shield-div div {
+    font-size: 13px
+}
+.shield {
+    width: 13px;
+    margin-right: 3px
+}
+
+
+
+.test {
+z-index: 1000;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: white;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    max-width: 1184px;
+}
+.left-section {
+    width: 250px;
+}
+.left-section img {
+    width: 145px;
+}
+
+.middle-section {
+    display: flex;
+    flex: 1;
+}
+.middle1 {
+    display: flex;
+}
+.search-div img {
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.search-div {
+    position: relative;
+}
+.search {
+    padding: 12px 100px 12px 40px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    width: 380px;
+}
+.search::placeholder {
+    font-size: 16px;
+    color: gray;
+}
+.search-btn {
+    margin-left: 8px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(246, 139, 30);
+    border: none;
+    width: 85px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.15);
+}
+.right-section {
+    display: flex;
+}
+.one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+.one:hover {
+    color: rgb(246, 139, 30);
+}
+.one:hover .user {
+    filter: brightness(0) saturate(100%) invert(74%) sepia(74%) saturate(4079%) hue-rotate(349deg) brightness(103%) contrast(93%);
+}
+.one:hover .dropdown {
+    filter: brightness(0) saturate(100%) invert(74%) sepia(74%) saturate(4079%) hue-rotate(349deg) brightness(103%) contrast(93%);
+}
+.one div {
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 7px;
+    vertical-align: bottom;
+}
+.user {
+    width: 27px;
+}
+.uwer {
+    width: 23px;
+}
+.dropdown {
+    width: 17px;
+}
